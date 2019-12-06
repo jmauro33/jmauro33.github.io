@@ -2,8 +2,11 @@
     background-color: lightseagreen;
     text-align: center;
     padding: 20px;
+    width:100%;
+
   
   }
+
   .topnav a {
     
     color:black;
@@ -57,12 +60,9 @@ input[type=submit]:hover {
   padding: 20px;
 }
 .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
+  
     width: 100%;
-    height: min-content;
-    background-color:grey
+    background-color:grey;
     color:black;
     text-align: center;
 }
