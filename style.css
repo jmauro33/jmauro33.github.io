@@ -4,33 +4,21 @@
     padding: 20px;
     width:960px;
   }
-.namelogo {
-
-  float: left;
-  box-decoration-break: clone;
-
-}
-
-
-
-
 
 h1 { 
 
 float: left;
 text-align: left;
+background-color: turquoise;
 
 }
-
-
-
-
-
 .topnav {
  
   background-color: white;
   overflow: hidden;
+
 }
+
   .topnav a {
   float: right;
   text-align: center;
@@ -43,7 +31,7 @@ text-align: left;
 
 
 .footer {
-  
+
     width: 960px;
     background-color:grey;
     color:black;
@@ -56,7 +44,7 @@ text-align: center;
 
 }
 body {
-  background: lightblue  no-repeat fixed center;
+  background-color:white;
 }
 
 
