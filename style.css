@@ -17,7 +17,7 @@
   .topnav a:hover {
     background-color:cadetblue;
     color: black;
-
+  }
   .topnav a.active {
     background-color: grey;
     color: white;
