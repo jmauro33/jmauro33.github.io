@@ -62,7 +62,7 @@ input[type=submit]:hover {
     bottom: 0;
     width: 100%;
     height: min-content;
-    background-color:red;
+    background-color:grey
     color:black;
     text-align: center;
 }
