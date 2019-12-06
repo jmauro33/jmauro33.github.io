@@ -1,83 +1,50 @@
  header {
     display: block;
-    text-align: left;
+    text-align: center;
     padding: 20px;
-    width:100%;
+    width:960px;
   }
+.namelogo {
+
+  float: left;
+  box-decoration-break: clone;
+
+}
+
+
+
+
+
+h1 { 
+
+float: left;
+text-align: left;
+
+}
+
+
+
+
 
 .topnav {
-  width: 960px;
-  margin: 0 auto 2em;
+ 
+  background-color: white;
+  overflow: hidden;
 }
-
- .container {
-  background-color: seagreen;
-  padding: 20px 16px ;
-  width:960px
- }
-
- .headline {
-  display: inline-block;
- }
-
-
-
-
   .topnav a {
-    float: right;
-    color:black;
-    text-align: center;
-    padding: 20px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  .topnav a:hover {
-    background-color:cadetblue;
-    color: black;
-  }
-  .topnav a.active {
-    background-color: grey;
-    color: white;
-  }
+  float: right;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
 
-body {
-    background-color: lightgray;
-}
 
-input[type=text], select, textarea {
-  width: 100%; 
-  padding: 12px;  
-  border: 1px solid #ccc; 
-  border-radius: 4px; 
-  box-sizing: border-box; 
-  margin-top: 6px; 
-  margin-bottom: 16px; 
-  resize: vertical 
 }
 
 
-input[type=submit] {
-  background-color:grey;
-  color: white;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
 
-
-input[type=submit]:hover {
-  background-color:grey;
-}
-
-.container {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-}
 .footer {
   
-    width: 100%;
+    width: 960px;
     background-color:grey;
     color:black;
     text-align: center;
