@@ -2,12 +2,10 @@
     background-color: lightseagreen;
     text-align: center;
     padding: 20px;
-  }
-  .topnav {
-    background-color: #333;
+  
   }
   .topnav a {
-    float: left;
+    
     color:black;
     text-align: center;
     padding: 20px 16px;
@@ -67,4 +65,10 @@ input[type=submit]:hover {
     background-color:red;
     color:black;
     text-align: center;
+}
+
+h1 {
+
+text-align: center;
+
 }
