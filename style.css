@@ -26,6 +26,25 @@
   background-color: #f2f2f2;
   padding: 20px;
 }
+.containerforpages {
+
+  width: 960px;
+  align-content: center;
+  margin: auto;
+  text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
 
 .contact header {
 
@@ -69,13 +88,14 @@ input[type=submit]:hover {
 
 
 .footer {
-
+    position: absolute;
     border-top: 8px solid #4aaaa5;
     background-color:grey;
     color:black;
     text-align: center;
     padding: 2px;
-
+    bottom: 0;
+    width: 100%;
 }
 
 h1 {
