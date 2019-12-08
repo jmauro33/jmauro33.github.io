@@ -7,7 +7,9 @@
 
 <body>
     <header>
-        <h1>Jonathan Mauro</h1>
+
+        <h1 id="logo">Jonathan Mauro</h1>
+
         <div class="topnav">
             <a href="portfolio.html">Portfolio</a>
             <a class="active" href="./contact.html">Contact</a>
@@ -15,25 +17,23 @@
         </div>
     </header>
 
-    <div class="containerforpages">
-        
-    </div>
-
     <div class="container">
         <p>Contact</p>
-        <form>
+
+        <hr>
+        
             <label for="fname">Name</label>
-            <input type="text" id="name" name="name" placeholder="Your name.." />
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
-            <label for="lname">Email</label>
-            <input type="text" id="email" name="email" placeholder="Your email.." />
-
+            <label for="email">email</label>
+            <input type="text" id="email" name="email" placeholder="Your email..">
 
             <label for="subject">Subject</label>
             <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-            <input type="submit" value="Submit" />
+            <input type="submit" value="Submit">
         </form>
+
     </div>
 
     <div class="footer">

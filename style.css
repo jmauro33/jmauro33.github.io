@@ -35,7 +35,7 @@
  .topnav {
    background-color: white;
     overflow: hidden;
-    float: left;
+    float: right;
     margin-top: 0px;
     margin-bottom: 0px;
     padding-top: 15px;
@@ -59,7 +59,10 @@
   padding: 20px;
   height: auto;
   width: 960px; 
-  text-align: center;
+  text-align: justify;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 50px;
+  line-height: 1.8;
 
 }
 
@@ -68,12 +71,10 @@
   align-content: center;
   margin: auto;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+
 }
 
-.contact header {
-  text-align: left;
-  font-size: large;
-}
 
 input[type=text], select, textarea {
   width: 100%;
@@ -96,7 +97,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #4aaaa5;
 }
 
 .container {
